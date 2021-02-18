@@ -22,7 +22,7 @@ public class UserController {
 
     private final UserService userService;
 
-    @PostMapping("/user")
+    @PostMapping("/users")
     public String signup(UserInfoDto infoDto) { // 회원 추가
         userService.save(infoDto);
         return "redirect:/login";
