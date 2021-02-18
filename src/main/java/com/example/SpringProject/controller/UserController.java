@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-@CrossOrigin(origins = "http://3.34.215.218:80")
+@CrossOrigin("*")
 @RequiredArgsConstructor
 @Controller
 public class UserController {
